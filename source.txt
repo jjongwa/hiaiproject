@@ -1,0 +1,17 @@
+1. Optimizer 함수 종류
+https://velog.io/@reversesky/Optimizer%EC%9D%98-%EC%A2%85%EB%A5%98%EC%99%80-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%A0%95%EB%A6%AC
+
+2. require_grad, zero_grad(), no_grad() 설명
+https://green-late7.tistory.com/48
+
+3. autograd 설명 ( 2번에대한 보충 )
+https://bob3rdnewbie.tistory.com/315
+
+4. torch.no_grad() 설명 ( 2번에대한 보충 )
+https://easy-going-programming.tistory.com/14
+
+5. 전체적인 흐름 1 (모두를 위한 딥러닝 시즌 2 - pytorch)
+https://www.youtube.com/watch?v=HgPWRqtg254&list=PLQ28Nx3M4JrhkqBVIXg-i5_CVVoS1UzAv&index=8
+
+6. 전체적인 흐름 2
+http://www.gisdeveloper.co.kr/?p=7755
