@@ -77,12 +77,15 @@ class MultilayerPerceptron(nn.Module):
         self.fc1 = nn.Linear(in_sz, layers[0])
         self.fc2 = nn.Linear(layers[0], layers[1])
         self.fc3 = nn.Linear(layers[1], out_sz)
+        self.bn1 = torch.nn.BatchNorm1d(120)
+        self.bn2 = torch.nn.BatchNorm1d(60)
 
     def forward(self, X):
         # ReLU로 Forward propogation 진행
         X = F.relu(self.fc1(X))
+        X = self.bn1(X)
         X = F.relu(self.fc2(X))
-
+        X = self.bn2(X)
         # 마지막 layer는 softmax
         X = self.fc3(X)
 
